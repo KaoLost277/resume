@@ -1,0 +1,112 @@
+
+    .containers{
+        margin: 0 auto;
+        width: 90%;
+        
+    }
+    .icon {
+        position: relative;
+        height: 35px;
+    }
+    .part1{
+        width: 90%;
+        height: 450px;
+        margin-top: 221px;
+    }
+    .part1 > div{
+        width: 400px;
+    }
+    .text1{
+            width: 400px;
+            height: 230px;
+            color: #dedede;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 64px;
+    }
+    .text2 {
+        margin-top: 350px;
+        width: 824px;
+        height: 108px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #dedede;
+        letter-spacing: -0.5px;
+    }
+
+     .photoprofix {
+        float: right;
+        width: 400px;
+        height: 400px;
+        background-image: url(/public/photos/profix.jpg);
+        clip-path: circle(50% at 50% 50%);
+        background-size: 400px 400px;
+        
+    }
+    .buttonemail   {
+        justify-content: center;
+        align-items: center;
+        padding: 16px 48px;
+        color: #ffffff;
+        border: none;
+        width: 400px; 
+        top: 615px;
+        background: #9d9d9d;
+        
+    }
+    .buttonemail:hover {
+        background:#3498db;
+    }
+    .about {
+        display: flex;
+        color: #9d9d9d;
+        width: 198px;
+        height: 48px;
+        margin-top: 5%;
+        cursor: pointer;
+    }
+    .about:hover {
+        
+        color: #3498db;
+    }
+    .about > span {
+        font-size: 25px;
+    }
+    .introduction{
+        margin-top: 5rem;
+        text-align: center;
+        top: 900px;
+        color: #ffffff;
+    }
+    .profile {
+        color: #ffffff;
+        
+        left: 5%;
+        top: 1100px;
+    }
+    .Education{
+        
+        color: #ffffff;
+        left: 60%;
+        top: 1060px;
+    }
+    .part2{
+        margin-top: 5rem;
+        justify-content: space-around;
+        display: flex;
+        height: 430px;
+        
+    }
+     td {
+        width:228px;
+        
+    }
+    .bordertable {
+        padding-bottom: 1rem;
+    }
+    .bordertable > span {
+        border-bottom: solid 2px;
+    }
+
