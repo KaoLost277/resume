@@ -1,9 +1,10 @@
-*{
-  font-family: 'Manrope', sans-serif;
-}
+
 body {
   background-color: #202020;
   margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 

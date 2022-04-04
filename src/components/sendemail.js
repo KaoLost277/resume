@@ -31,10 +31,23 @@ function Sendmail () {
         
     
     return(
-        
+        <div className="containereamil">
+          <div className="contact">
+            
+            <h1>CONTACT ME</h1>
+            
+            <div className="text">
+            <span >Tel: 062-681-7210</span>
+            <span>Email: KaoLost277@gmail.com</span>
+            <span>Address: 1/277 Pruksa. Phuttha Bucha 36 road. Khwaeng Bang Mot Thung Khru Bangkok 10140 Thailand </span>
+            <span>GitHub: github.com/KaoLost277 </span>
+            </div>
+
+            
+          </div>
         <div className="email">
         <form ref={form} className="form" onSubmit={sendEmail}>
-      <h1>Mailbox📧</h1>
+      <h1 style={{color: 'black'}}>Mailbox📧</h1>
 
       <label>Name</label>
       <input
@@ -70,6 +83,6 @@ function Sendmail () {
       </button>
     </form>
     </div>
-    
+    </div>
     )
 } export default Sendmail;
