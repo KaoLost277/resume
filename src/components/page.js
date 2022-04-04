@@ -1,5 +1,5 @@
 import '..//styles/page.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faArrowDown, faUserGraduate, faUser, faIdCard, faBriefcase, faLanguage, faFolder } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faInstagram, faLine } from '@fortawesome/free-brands-svg-icons';
 
@@ -292,7 +292,7 @@ function Page() {
                     <a href='https://github.com/KaoLost277' target="_blank">{icongithub}</a>
                     <a href='https://line.me/ti/p/nHk_auKF_F?fbclid=IwAR1hwcuhLtXmBmM8bE0KhBmIHqY3BN5QRoBwVpzCXGy_SYgsCUAWd-s_fFI' target="_blank">{iconline}</a>
                 </div>
-
+                    
             </div>
         </div>
     );

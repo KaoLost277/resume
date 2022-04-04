@@ -12,7 +12,8 @@ section {
     min-height: 90vh;
 
 }
-.icons :hover{
+
+.icons :hover {
     transform: scale(1.05);
 }
 
@@ -44,7 +45,7 @@ section {
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
-   
+
 }
 
 .text2 {
@@ -56,28 +57,35 @@ section {
     font-size: 24px;
     line-height: 36px;
     letter-spacing: -0.5px;
-    
+
 }
+
 @keyframes yourAnimation {
-    0.0%{
+    0.0% {
         opacity: 0%;
     }
-    10%{
+
+    10% {
         opacity: 10%;
     }
-    20%{
+
+    20% {
         opacity: 20%;
     }
-    30%{
+
+    30% {
         opacity: 30%;
     }
-    40%{
+
+    40% {
         opacity: 40%;
     }
-    50%{
+
+    50% {
         opacity: 50%;
     }
-    60%{
+
+    60% {
         opacity: 60%;
     }
 }
@@ -101,7 +109,6 @@ section {
     top: 615px;
     background: #9d9d9d;
     animation: yourAnimation 1s
-
 }
 
 .bm {
@@ -458,11 +465,23 @@ table {
         filter: blur(0.5px);
 
     }
-    .containereamil{
+
+    .containereamil {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+
+    .email {
+        width: 100%;
+    }
+
+    .link {
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+
 }
 
 @media screen and (max-width: 767px) {
@@ -608,8 +627,7 @@ table {
     }
 
     .thskill {
-        background-color: #393939;
-        color: #00AD5F;
+
         height: 40px;
         font-size: 12px;
     }
@@ -667,10 +685,24 @@ table {
     .bicon {
         height: 23px;
     }
-    .containereamil{
+
+    .containereamil {
         display: flex;
         flex-direction: column;
         width: 100%;
-        
+
+    }
+
+    .email {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .skillsLanguages {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
     }
 }
